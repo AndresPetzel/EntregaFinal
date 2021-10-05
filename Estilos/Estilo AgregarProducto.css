@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.seccion{
+    height: 600px;
+    width: 600px;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center; */
+    background-color: rgb(8, 40, 41);
+}
+
+input{
+    background-color: white;
+}

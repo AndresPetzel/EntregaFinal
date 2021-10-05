@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/Estilo Home.css">
+    <title>Carro de compra</title>
+   
+    <style>
+        .container{
+            height: 50%;
+            width: 50%;
+            margin: auto;
+            border: 2px dashed grey;
+            display: block;
+        }
+        .elementos > input{
+            width: 50%;
+            font-size: 21px;
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header menu">
+        <nav class="main-menu">
+            <a href="" class="logotipo">
+                <img src="/imágenes/Logo.png" alt="Logo">
+            </a>
+            <!-- menu escritorio -->
+            <ul class="menu-link-desktop">
+                <li>
+                    <a href="#Home" class="links-menu">Home</a>
+                </li>
+                <li>
+                    <a href="#productos" class="links-menu">Productos</a>
+                </li>
+                <li>
+                    <a href="#Post-Venta" class="links-menu">Post Venta</a>
+                </li>
+                <li>
+                    <a href="#contacto" class="links-menu cta-btn">Contacto</a>
+                </li>
+            </ul>
+            <!-- Menú mobile -->
+            <ul class="menu-link-mobile">
+                <li>
+                    <a href="#" class="links-menu">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="links-menu">Servicios</a>
+                </li>
+                <li>
+                    <a href="#" class="links-menu">Tienda</a>
+                </li>
+                <li>
+                    <a href="#" class="links-menu cta-btn">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<div class="blanco"></div>
+
+    <div class="container">
+        <h1 style="text-align: center;">
+            Agregar Prouctos
+        </h1>
+        <div class="elementos">
+            <input id="nombre" type="text">
+            <input id="precio" type="text">
+            <input id="descripcion" type="text">
+            <input id="inventario" type="text">
+            <button onclick="Ingresar"><a href="">Enviar Información</a></button>
+        </div>
+    </div>
+    <script src="js/Carga de Producto.js"></script>
+</body>
+</html>
